@@ -1,4 +1,4 @@
-package com.kong.androidui.adapter;
+package com.kong.androidui.adapter.base;
 
 import android.content.Context;
 import android.view.LayoutInflater;

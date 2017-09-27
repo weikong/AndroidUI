@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.kong.androidui.R;
+import com.kong.androidui.adapter.base.BaseListViewAdapter;
 import com.kong.androidui.bean.MainListBean;
 
 /**
