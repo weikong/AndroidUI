@@ -12,4 +12,12 @@
         <item>div-gpt-ad-1443488528500-3</item>
         <item>div-gpt-ad-1443488528500-1</item>
     </string-array>
+
+    <array name="main_list">
+        <item>ImageView</item>
+        <item>TextView</item>
+        <item>WebView</item>
+        <item>ListView</item>
+        <item>RecyclerView</item>
+    </array>
 </resources>

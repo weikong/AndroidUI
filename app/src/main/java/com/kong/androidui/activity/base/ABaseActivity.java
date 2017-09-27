@@ -9,4 +9,8 @@ public class ABaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
+    protected void initView() {
+
+    }
 }
