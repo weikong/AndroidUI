@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AndroidUI</string>
+    <string name="data_binding_activity">View Data Binding Activity</string>
 
     <string-array name="adBlockDiv">
         <item>div-gpt-ad-1443488528500-4</item>

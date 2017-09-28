@@ -1,5 +1,6 @@
 package com.kong.androidui.activity.base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -12,5 +13,11 @@ public class ABaseActivity extends AppCompatActivity {
 
     protected void initView() {
 
+    }
+
+    protected void intentToActivity(Class<?> c) {
+        Intent intent = new Intent();
+        intent.setClass(this, c);
+        startActivity(intent);
     }
 }
