@@ -7,6 +7,7 @@ import android.widget.ListView;
 
 import com.kong.androidui.R;
 import com.kong.androidui.activity.base.ABaseActivity;
+import com.kong.androidui.activity.html.AdBlocksWebViewActivity;
 import com.kong.androidui.adapter.MainListAdapter;
 import com.kong.androidui.bean.MainListBean;
 
@@ -37,7 +38,10 @@ public class MainUIActivity extends ABaseActivity {
                     case 0:
                         break;
                     case 1:
-                        intentToActivity(MainActivity.class);
+//                        intentToActivity(AdBlocksWebViewActivity.class);
+                        AdBlocksWebViewActivity.startWebView(MainUIActivity.this,
+                                "http://174677bk23.iask.in:14151/travel.html",
+                                getResources().getColor(R.color.colorPrimary));
                         break;
                     case 2:
                         break;
